@@ -10,9 +10,12 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import java.sql.Timestamp;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 
 public class SpringTest {
+
+    public static HashMap<String, Long> statistic = new HashMap<>();
     public static void main(String[] args) {
         AnnotationConfigApplicationContext annotationConfigApplicationContext =
                 new AnnotationConfigApplicationContext("by.academy");
@@ -124,6 +127,8 @@ public class SpringTest {
         for (TotalWeightOnDate totalWeightOnDateResult : totalWeightOnDate) {
             System.out.println(totalWeightOnDateResult);
         }
+        System.out.println("Statistic");
+        System.out.println(statistic);
 
         }
 

@@ -88,3 +88,428 @@
 2022-09-11 19:18:56 INFO  UserRowMapper:22 - UserRowMapping start
 2022-09-11 19:18:56 INFO  UserRowMapper:31 - UserRowMapping finish
 2022-09-11 19:18:56 INFO  CustomAspect:30 - Method update finished
+2022-09-12 16:12:09 INFO  CustomAspect:26 - Method findAll start
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  CustomAspect:30 - Method findAll finished
+2022-09-12 16:12:10 INFO  CustomAspect:26 - Method findAll start
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  CustomAspect:30 - Method findAll finished
+2022-09-12 16:12:10 INFO  CustomAspect:26 - Method findById start
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  CustomAspect:30 - Method findById finished
+2022-09-12 16:12:10 INFO  CustomAspect:26 - Method findOne start
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  CustomAspect:30 - Method findOne finished
+2022-09-12 16:12:10 INFO  CustomAspect:26 - Method create start
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  CustomAspect:30 - Method create finished
+2022-09-12 16:12:10 INFO  CustomAspect:26 - Method delete start
+2022-09-12 16:12:10 INFO  CustomAspect:30 - Method delete finished
+2022-09-12 16:12:10 INFO  CustomAspect:26 - Method update start
+2022-09-12 16:12:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:12:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:12:10 INFO  CustomAspect:30 - Method update finished
+2022-09-12 16:19:16 INFO  CustomAspect:26 - Method findAll start
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  CustomAspect:35 - Method findAll finished
+2022-09-12 16:19:16 INFO  CustomAspect:36 - Total execution time StopWatch in nanoseconds: 384580285
+2022-09-12 16:19:16 INFO  CustomAspect:26 - Method findAll start
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  CustomAspect:35 - Method findAll finished
+2022-09-12 16:19:16 INFO  CustomAspect:36 - Total execution time StopWatch in nanoseconds: 3129565
+2022-09-12 16:19:16 INFO  CustomAspect:26 - Method findById start
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  CustomAspect:35 - Method findById finished
+2022-09-12 16:19:16 INFO  CustomAspect:36 - Total execution time StopWatch in nanoseconds: 3202266
+2022-09-12 16:19:16 INFO  CustomAspect:26 - Method findOne start
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  CustomAspect:35 - Method findOne finished
+2022-09-12 16:19:16 INFO  CustomAspect:36 - Total execution time StopWatch in nanoseconds: 1364214
+2022-09-12 16:19:16 INFO  CustomAspect:26 - Method create start
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  CustomAspect:35 - Method create finished
+2022-09-12 16:19:16 INFO  CustomAspect:36 - Total execution time StopWatch in nanoseconds: 14062516
+2022-09-12 16:19:16 INFO  CustomAspect:26 - Method delete start
+2022-09-12 16:19:16 INFO  CustomAspect:35 - Method delete finished
+2022-09-12 16:19:16 INFO  CustomAspect:36 - Total execution time StopWatch in nanoseconds: 1588731
+2022-09-12 16:19:16 INFO  CustomAspect:26 - Method update start
+2022-09-12 16:19:16 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-12 16:19:16 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-12 16:19:16 INFO  CustomAspect:35 - Method update finished
+2022-09-12 16:19:16 INFO  CustomAspect:36 - Total execution time StopWatch in nanoseconds: 3837331
+2022-09-13 20:31:14 INFO  CustomAspect:27 - Method findAll start
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  CustomAspect:36 - Method findAll finished
+2022-09-13 20:31:15 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 744706083
+2022-09-13 20:31:15 INFO  CustomAspect:27 - Method findAll start
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  CustomAspect:36 - Method findAll finished
+2022-09-13 20:31:15 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 4920148
+2022-09-13 20:31:15 INFO  CustomAspect:27 - Method findById start
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  CustomAspect:36 - Method findById finished
+2022-09-13 20:31:15 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 16706267
+2022-09-13 20:31:15 INFO  CustomAspect:27 - Method findOne start
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  CustomAspect:36 - Method findOne finished
+2022-09-13 20:31:15 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 1967204
+2022-09-13 20:31:15 INFO  CustomAspect:27 - Method create start
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  CustomAspect:36 - Method create finished
+2022-09-13 20:31:15 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 31712614
+2022-09-13 20:31:15 INFO  CustomAspect:27 - Method delete start
+2022-09-13 20:31:15 INFO  CustomAspect:36 - Method delete finished
+2022-09-13 20:31:15 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 1810256
+2022-09-13 20:31:15 INFO  CustomAspect:27 - Method update start
+2022-09-13 20:31:15 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 20:31:15 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 20:31:15 INFO  CustomAspect:36 - Method update finished
+2022-09-13 20:31:15 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 11120262
+2022-09-13 21:31:51 INFO  CustomAspect:27 - Method findAll start
+2022-09-13 21:31:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:31:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:31:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:31:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:31:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:31:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:31:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:31:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:31:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:31:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:31:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:31:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:31:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:31:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:31:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:31:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:31:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:31:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:31:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:31:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:31:58 INFO  CustomAspect:36 - Method findAll finished
+2022-09-13 21:31:58 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 6835581078
+2022-09-13 21:34:27 INFO  CustomAspect:27 - Method findAll start
+2022-09-13 21:34:28 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:28 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:28 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:28 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:28 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:28 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:28 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:28 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:28 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:28 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:28 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:28 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:28 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:28 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:28 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:28 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:28 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:28 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:28 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:28 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:28 INFO  CustomAspect:36 - Method findAll finished
+2022-09-13 21:34:28 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 399913785
+2022-09-13 21:34:34 INFO  CustomAspect:27 - Method findAll start
+2022-09-13 21:34:34 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:34 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:34 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:34 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:34 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:34 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:34 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:34 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:34 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:34 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:34 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:34 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:34 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:34 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:34 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:34 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:34 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:34 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:34 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:34:34 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:34:34 INFO  CustomAspect:36 - Method findAll finished
+2022-09-13 21:34:34 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 5004824
+2022-09-13 21:36:06 INFO  CustomAspect:27 - Method findAll start
+2022-09-13 21:36:06 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:36:06 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:36:06 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:36:06 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:36:06 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:36:06 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:36:06 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:36:06 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:36:06 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:36:06 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:36:06 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:36:06 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:36:06 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:36:06 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:36:06 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:36:06 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:36:06 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:36:06 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:36:06 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:36:06 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:36:06 INFO  CustomAspect:36 - Method findAll finished
+2022-09-13 21:36:06 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 357177986
+2022-09-13 21:37:49 INFO  CustomAspect:27 - Method findAll start
+2022-09-13 21:37:50 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:37:50 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:37:50 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:37:50 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:37:50 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:37:50 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:37:50 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:37:50 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:37:50 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:37:50 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:37:50 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:37:50 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:37:50 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:37:50 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:37:50 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:37:50 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:37:50 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:37:50 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:37:50 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:37:50 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:37:50 INFO  CustomAspect:36 - Method findAll finished
+2022-09-13 21:37:50 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 371147274
+2022-09-13 21:48:58 INFO  CustomAspect:27 - Method findAll start
+2022-09-13 21:48:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:48:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:48:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:48:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:48:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:48:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:48:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:48:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:48:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:48:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:48:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:48:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:48:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:48:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:48:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:48:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:48:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:48:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:48:58 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:48:58 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:48:58 INFO  CustomAspect:36 - Method findAll finished
+2022-09-13 21:48:58 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 383434601
+2022-09-13 21:49:10 INFO  CustomAspect:27 - Method findById start
+2022-09-13 21:49:10 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:49:10 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:49:10 INFO  CustomAspect:36 - Method findById finished
+2022-09-13 21:49:10 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 5798548
+2022-09-13 21:49:36 INFO  CustomAspect:27 - Method findById start
+2022-09-13 21:49:36 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:49:36 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:49:36 INFO  CustomAspect:36 - Method findById finished
+2022-09-13 21:49:36 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 1758082
+2022-09-13 21:49:40 INFO  CustomAspect:27 - Method findById start
+2022-09-13 21:49:40 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:49:40 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:49:40 INFO  CustomAspect:36 - Method findById finished
+2022-09-13 21:49:40 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 1569487
+2022-09-13 21:52:51 INFO  CustomAspect:27 - Method findAll start
+2022-09-13 21:52:51 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:52:51 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:52:51 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:52:51 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:52:51 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:52:51 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:52:51 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:52:51 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:52:51 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:52:51 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:52:51 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:52:51 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:52:51 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:52:51 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:52:51 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:52:51 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:52:51 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:52:51 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:52:51 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:52:51 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:52:51 INFO  CustomAspect:36 - Method findAll finished
+2022-09-13 21:52:51 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 381249722
+2022-09-13 21:53:11 INFO  CustomAspect:27 - Method findById start
+2022-09-13 21:53:11 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:53:11 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:53:11 INFO  CustomAspect:36 - Method findById finished
+2022-09-13 21:53:11 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 7154208
+2022-09-13 21:53:26 INFO  CustomAspect:27 - Method findById start
+2022-09-13 21:53:26 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:53:26 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:53:26 INFO  CustomAspect:36 - Method findById finished
+2022-09-13 21:53:26 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 1495075
+2022-09-13 21:56:27 INFO  CustomAspect:27 - Method findById start
+2022-09-13 21:56:27 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-13 21:56:27 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-13 21:56:27 INFO  CustomAspect:36 - Method findById finished
+2022-09-13 21:56:27 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 370022119
+2022-09-14 23:14:43 INFO  CustomAspect:27 - Method findAll start
+2022-09-14 23:14:45 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:14:45 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:14:45 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:14:45 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:14:45 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:14:45 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:14:45 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:14:45 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:14:45 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:14:45 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:14:45 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:14:45 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:14:45 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:14:45 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:14:45 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:14:45 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:14:45 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:14:45 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:14:45 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:14:45 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:14:45 INFO  CustomAspect:36 - Method findAll finished
+2022-09-14 23:14:45 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 2301789215
+2022-09-14 23:37:09 INFO  CustomAspect:27 - Method findAll start
+2022-09-14 23:37:09 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:37:09 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:37:09 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:37:09 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:37:09 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:37:09 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:37:09 INFO  CustomAspect:36 - Method findAll finished
+2022-09-14 23:37:09 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 385331671
+2022-09-14 23:39:41 INFO  CustomAspect:27 - Method findAll start
+2022-09-14 23:39:42 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:39:42 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:39:42 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:39:42 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:39:42 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:39:42 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:39:42 INFO  CustomAspect:36 - Method findAll finished
+2022-09-14 23:39:42 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 477378435
+2022-09-14 23:43:13 INFO  CustomAspect:27 - Method findAll start
+2022-09-14 23:43:14 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:43:14 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:43:14 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:43:14 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:43:14 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:43:14 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:43:14 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:43:14 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:43:14 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:43:14 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:43:14 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:43:14 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:43:14 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:43:14 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:43:14 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:43:14 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:43:14 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:43:14 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:43:14 INFO  UserRowMapper:22 - UserRowMapping start
+2022-09-14 23:43:14 INFO  UserRowMapper:31 - UserRowMapping finish
+2022-09-14 23:43:14 INFO  CustomAspect:36 - Method findAll finished
+2022-09-14 23:43:14 INFO  CustomAspect:37 - Total execution time StopWatch in nanoseconds: 454491726

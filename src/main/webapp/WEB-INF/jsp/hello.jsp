@@ -20,7 +20,7 @@
 </style>
 <body>
 <div>
-    <h1>System Users</h1>
+    <h1>System User</h1>
 </div>
 <div>
     <table>
@@ -35,10 +35,10 @@
         <c:forEach var="user" items="${users}">
             <tr>
                 <td>${user.id}</td>
-                <td>${user.user_name}</td>
-                <td>${user.sur_name}</td>
-                <td><fmt:formatDate value="${user.birth}" pattern="yyyy-MM-dd HH:mm:ss"/></td>
-                <td>${user.is_deleted}</td>
+                <td>${user.userName}</td>
+                <td>${user.surName}</td>
+                <td><fmt:formatDate value="${user.birthDate}" pattern="yyyy-MM-dd HH:mm:ss"/></td>
+                <td>${user.isDeleted}</td>
                 <td>
                     <button>Edit</button>
                 </td>
