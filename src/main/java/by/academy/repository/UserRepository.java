@@ -17,6 +17,7 @@ import java.util.Map;
 import java.util.Optional;
 
 import static by.academy.repository.UserTableColumn.*;
+import static by.academy.util.UUIDGenerator.generateUUID;
 
 @Repository
 //@Primary
@@ -43,7 +44,7 @@ private final DatabaseProperties databaseProperties;
             if (hasRow) {
                 return userRowMapping(rs);
             } else {
-                throw new NoSuchEntityException("Entity User with id " + id + " does not exist", 404);
+                throw new NoSuchEntityException("Entity User with id " + id + " does not exist", 404, generateUUID());
             }
         } catch (SQLException e) {
             System.err.println(e.getMessage());

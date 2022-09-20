@@ -62,4 +62,9 @@ public class UserServiceImpl implements UserService{
     public User update(User object) {
         return userRepository.update(object);
     }
+
+    @Override
+    public List<User> search(int verifiedLimit, int verifiedOffset) {
+        return userRepository.findAll(verifiedLimit, verifiedOffset);
+    }
 }

@@ -19,4 +19,5 @@ public interface UserService {
 
     User update(User object);
 
+    List<User> search(int verifiedLimit, int verifiedOffset);
 }
