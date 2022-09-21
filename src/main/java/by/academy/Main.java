@@ -1,6 +1,5 @@
 package by.academy;
 
-import by.academy.configuration.DatabaseProperties;
 import by.academy.domain.User;
 import by.academy.repository.UserRepository;
 
@@ -13,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world");
 
-        UserRepository userRepository = new UserRepository(new DatabaseProperties());
+        UserRepository userRepository = new UserRepository();
 
         List<User> all= userRepository.findAll();
         for (User user:  all ) {

@@ -1,7 +1,6 @@
 package by.academy.controller;
 
 
-import by.academy.configuration.DatabaseProperties;
 import by.academy.repository.UserRepository;
 
 import javax.servlet.RequestDispatcher;
@@ -29,7 +28,7 @@ public class FrontController extends HttpServlet {
 
             req.setAttribute("user", "Mikalai");
 
-            UserRepository userRepository = new UserRepository(new DatabaseProperties());
+            UserRepository userRepository = new UserRepository();
 
             req.setAttribute("users", userRepository.findAll());
 

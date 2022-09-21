@@ -4,6 +4,7 @@ D:\JavaEnterprise\Final_Project\src\main\java\by\academy\repository\jdbctemplate
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\repository\TestSpringUserInterface.java
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\Main.java
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\repository\TrainingSessionsUsersResultColumn.java
+D:\JavaEnterprise\Final_Project\src\main\java\by\academy\SpringBootStarter.java
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\controller\requests\UserCreateRequest.java
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\repository\TrainingJournalTableColumn.java
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\repository\jdbctemplate\TotalWeightOnDateMapper.java
@@ -20,13 +21,11 @@ D:\JavaEnterprise\Final_Project\src\main\java\by\academy\service\UserServiceImpl
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\service\TrainingJournalService.java
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\domain\TotalWeightOnDate.java
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\util\DatabasePropertiesReader.java
-D:\JavaEnterprise\Final_Project\src\main\java\by\academy\configuration\ApplicationContextStarter.java
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\repository\jdbctemplate\TrainingSessionsResultMapper.java
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\controller\FrontController.java
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\controller\exceptionhandle\DefaultExceptionHandler.java
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\domain\TrainingJournal.java
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\repository\UserRepositoryInterface.java
-D:\JavaEnterprise\Final_Project\src\main\java\by\academy\configuration\DatabaseProperties.java
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\domain\TrainingSessionsUsersResult.java
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\repository\UserTableColumn.java
 D:\JavaEnterprise\Final_Project\src\main\java\by\academy\util\UUIDGenerator.java

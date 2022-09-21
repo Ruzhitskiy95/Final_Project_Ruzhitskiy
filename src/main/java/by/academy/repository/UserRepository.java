@@ -1,6 +1,6 @@
 package by.academy.repository;
 
-import by.academy.configuration.DatabaseProperties;
+
 import by.academy.domain.User;
 import by.academy.exeption.NoSuchEntityException;
 import by.academy.util.DatabasePropertiesReader;
@@ -25,7 +25,6 @@ import static by.academy.util.UUIDGenerator.generateUUID;
 //@AllArgsConstructor
 public class UserRepository implements UserRepositoryInterface{
 
-private final DatabaseProperties databaseProperties;
 
 
     @Override
@@ -88,7 +87,7 @@ private final DatabaseProperties databaseProperties;
 
     private Connection getConnection() throws SQLException {
         try {
-            String driver = databaseProperties.getDriverName();
+            String driver = "databaseProperties.getDriverName()";
 
             Class.forName(driver);
         } catch (ClassNotFoundException e) {
@@ -96,13 +95,11 @@ private final DatabaseProperties databaseProperties;
             throw new RuntimeException("JDBC Driver Cannot be loaded!");
         }
 
-        String url = databaseProperties.getUrl();
-        String port = databaseProperties.getPort();
-        String dbName = databaseProperties.getName();
-        String login = databaseProperties.getLogin();
-        String password = databaseProperties.getPassword();
+        String url = "databaseProperties.getUrl()";
+        String login = "databaseProperties.getLogin()";
+        String password = "databaseProperties.getPassword()";
 
-        String jdbcURL = StringUtils.join(url, port, dbName);
+        String jdbcURL = StringUtils.join(url, login, password);
 
         return DriverManager.getConnection(jdbcURL, login, password);
     }

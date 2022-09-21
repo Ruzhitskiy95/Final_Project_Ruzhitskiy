@@ -1,7 +1,6 @@
 by\academy\repository\jdbctemplate\JdbcTemplateUserRepository.class
 by\academy\controller\FrontController.class
 by\academy\repository\UserRepositoryInterface.class
-by\academy\configuration\ApplicationContextStarter.class
 by\academy\controller\exceptionhandle\ErrorContainer$ErrorContainerBuilder.class
 by\academy\repository\TrainingJournalInterface.class
 by\academy\service\UserService.class
@@ -10,7 +9,6 @@ by\academy\repository\jdbctemplate\TrainingJournalRowMapper.class
 by\academy\controller\requests\UserCreateRequest.class
 by\academy\domain\User.class
 by\academy\controller\exceptionhandle\DefaultExceptionHandler.class
-by\academy\configuration\DatabaseProperties.class
 by\academy\service\TrainingJournalService.class
 by\academy\controller\UserRestController.class
 by\academy\aop\CustomAspect.class
@@ -26,6 +24,7 @@ by\academy\domain\TotalWeightOnDate$TotalWeightOnDateBuilder.class
 by\academy\Main.class
 by\academy\repository\TotalWeightOnDateColumn.class
 by\academy\domain\TotalWeightOnDate.class
+by\academy\SpringBootStarter.class
 by\academy\domain\TrainingJournal.class
 by\academy\service\TrainingJournalServiceImpl.class
 by\academy\exeption\NoSuchEntityException.class
