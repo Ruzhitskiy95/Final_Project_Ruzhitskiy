@@ -3,11 +3,8 @@ package by.academy.repository;
 
 import by.academy.domain.User;
 import by.academy.exeption.NoSuchEntityException;
-import by.academy.util.DatabasePropertiesReader;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
 
 import java.sql.*;
@@ -16,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-import static by.academy.repository.UserTableColumn.*;
+import static by.academy.repository.colums.UserTableColumn.*;
 import static by.academy.util.UUIDGenerator.generateUUID;
 
 @Repository
@@ -63,7 +60,6 @@ public class UserRepository implements UserRepositoryInterface{
         user.setUserName(rs.getString(NAME));
         user.setSurName(rs.getString(SURNAME));
         user.setBirthDate(rs.getTimestamp(BIRTH_DATE));
-        user.setRole(rs.getString(ROLE));
         user.setIsDeleted(rs.getBoolean(MYDELETED));
 
         return user;
@@ -278,5 +274,10 @@ public class UserRepository implements UserRepositoryInterface{
     @Override
     public Map<String, String> getUserStats() {
         return null;
+    }
+
+    @Override
+    public Optional<User> findByLogin(String login) {
+        return Optional.empty();
     }
 }

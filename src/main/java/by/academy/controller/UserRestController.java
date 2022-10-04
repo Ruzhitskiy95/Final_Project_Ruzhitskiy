@@ -3,6 +3,7 @@ package by.academy.controller;
 import by.academy.controller.requests.UserCreateRequest;
 import by.academy.controller.requests.UserSearchRequest;
 import by.academy.domain.User;
+import by.academy.repository.hibernate.HibernateUserInterface;
 import by.academy.service.UserService;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
@@ -18,6 +19,17 @@ import java.util.*;
 @RequestMapping("/rest/users")
 public class UserRestController {
     private final UserService userService;
+
+
+    private final HibernateUserInterface hibernateUserInterface;
+
+    @GetMapping
+    @RequestMapping("/hibernate")
+    public ResponseEntity<Object> findAllHibernateUsers() {
+
+        return new ResponseEntity<>(Collections.singletonMap("result", hibernateUserInterface.findAll()), HttpStatus.OK);
+    }
+
     @GetMapping
 //    @ResponseStatus(HttpStatus.OK)
 
@@ -74,4 +86,5 @@ public class UserRestController {
         Long deleteMyId = userService.delete(userId);
         return deleteMyId;
     }
+
 }

@@ -5,6 +5,7 @@ import by.academy.domain.User;
 import by.academy.repository.UserRepositoryInterface;
 import by.academy.aop.CustomAspect;
 import lombok.RequiredArgsConstructor;
+import org.apache.log4j.Logger;
 import org.springframework.context.annotation.Primary;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
@@ -15,8 +16,6 @@ import java.sql.Timestamp;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.logging.Logger;
-
 
 
 @Repository
@@ -27,6 +26,8 @@ public class JdbcTemplateUserRepository implements UserRepositoryInterface {
     private final JdbcTemplate jdbcTemplate;
     private final NamedParameterJdbcTemplate namedParameterJdbcTemplate;
     private final UserRowMapper userRowMapper;
+
+    public static final org.apache.log4j.Logger log = Logger.getLogger(UserRowMapper.class);
 
     @Override
     public User findById(Long id) {
@@ -54,15 +55,16 @@ public class JdbcTemplateUserRepository implements UserRepositoryInterface {
     @Override
     public User create(User object) {
         final String insertQuery =
-                "insert into training_records_schema.users (user_name, sur_name, birth_date, is_deleted) " +
-                        " values (:userName, :surName, :birthDate, :isDeleted);";
+                "insert into training_records_schema.users (user_name, sur_name, birth_date, is_deleted, user_login, user_password) " +
+                        " values (:userName, :surName, :birthDate, :isDeleted, :login, :password);";
 
         MapSqlParameterSource mapSqlParameterSource = new MapSqlParameterSource();
         mapSqlParameterSource.addValue("userName", object.getUserName());
         mapSqlParameterSource.addValue("surName", object.getSurName());
         mapSqlParameterSource.addValue("birthDate", object.getBirthDate());
         mapSqlParameterSource.addValue("isDeleted", object.getIsDeleted());
-
+        mapSqlParameterSource.addValue("login", object.getLogin());
+        mapSqlParameterSource.addValue("password", object.getPassword());
         namedParameterJdbcTemplate.update(insertQuery, mapSqlParameterSource);
 
         Long lastInsertId = namedParameterJdbcTemplate.query("SELECT currval('training_records_schema.users_id_seq') as last_id",
@@ -114,5 +116,16 @@ public class JdbcTemplateUserRepository implements UserRepositoryInterface {
     @Override
     public Map<String, String> getUserStats() {
         return null;
+    }
+
+    @Override
+    public Optional<User> findByLogin(String login) {
+
+        final String searchByLoginQuery = "select * from training_records_schema.users where user_login = :login";
+
+        MapSqlParameterSource mapSqlParameterSource = new MapSqlParameterSource();
+        mapSqlParameterSource.addValue("login", login);
+
+        return Optional.of(namedParameterJdbcTemplate.queryForObject(searchByLoginQuery, mapSqlParameterSource, userRowMapper));
     }
 }

@@ -1,6 +1,5 @@
 package by.academy.repository.jdbctemplate;
 
-import by.academy.domain.TrainingJournal;
 import by.academy.domain.TrainingSessionsUsersResult;
 import by.academy.repository.TrainingSessionsUsersResultColumn;
 import org.springframework.jdbc.core.RowMapper;
@@ -10,8 +9,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import static by.academy.repository.TrainingSessionsUsersResultColumn.*;
-import static by.academy.repository.TrainingJournalTableColumn.*;
-import static by.academy.repository.UserTableColumn.MYDELETED;
 
 
 @Component

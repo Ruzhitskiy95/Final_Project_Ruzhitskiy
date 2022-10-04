@@ -55,4 +55,9 @@ public class TestSpringUserInterface implements UserRepositoryInterface{
     public Map<String, String> getUserStats() {
         return null;
     }
+
+    @Override
+    public Optional<User> findByLogin(String login) {
+        return Optional.empty();
+    }
 }

@@ -9,9 +9,10 @@ import java.util.Objects;
 @Getter
 @Setter
 @EqualsAndHashCode
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
+
 
 public class User {
 
@@ -19,8 +20,11 @@ public class User {
     private String userName;
     private String surName;
     private Timestamp birthDate;
-    private String role;
     private Boolean isDeleted;
+    private String login;
+    private String password;
+    private Timestamp modificationDate;
+    private Timestamp creationDate;
 
 
     @Override

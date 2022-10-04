@@ -5,11 +5,10 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Component;
 import org.apache.log4j.Logger;
 
-import javax.management.relation.Role;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import static by.academy.repository.UserTableColumn.*;
+import static by.academy.repository.colums.UserTableColumn.*;
 
 @Component
 public class UserRowMapper implements RowMapper<User> {
@@ -25,8 +24,12 @@ public class UserRowMapper implements RowMapper<User> {
         user.setUserName(rs.getString(NAME));
         user.setSurName(rs.getString(SURNAME));
         user.setBirthDate(rs.getTimestamp(BIRTH_DATE));
-        user.setRole(rs.getString(ROLE));
         user.setIsDeleted(rs.getBoolean(MYDELETED));
+        user.setLogin(rs.getString(LOGIN));
+        user.setPassword(rs.getString(PASSWORD));
+        user.setCreationDate(rs.getTimestamp(CREATION_DATE));
+        user.setModificationDate(rs.getTimestamp(MODIFICATION_DATE));
+
 
         log.info("UserRowMapping finish");
 

@@ -7,8 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import static by.academy.repository.TrainingJournalTableColumn.*;
-import static by.academy.repository.UserTableColumn.*;
-import static by.academy.repository.UserTableColumn.MYDELETED;
+import static by.academy.repository.colums.UserTableColumn.MYDELETED;
 
 
 @Component
