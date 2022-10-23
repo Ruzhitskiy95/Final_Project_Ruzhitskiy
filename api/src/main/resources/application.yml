@@ -1,4 +1,7 @@
 spring:
+#  rest:
+#    pathmatch:
+#    matching-strategy: rest_path_matcher
   flyway:
     enabled: true
     baseline-on-migrate: true
@@ -7,9 +10,10 @@ spring:
     user: ${spring.datasource.username}
     password: ${spring.datasource.password}
     url: ${spring.datasource.url}
-    default-schema: training_records_schema
+#    default-schema: training_records_schema
     out-of-order: true
     ignore-migration-patterns: '*:ignored'
+    schemas: training_records_schema
   datasource:
     hikari:
       jdbc-url: "jdbc:postgresql://localhost:5432/training_records"

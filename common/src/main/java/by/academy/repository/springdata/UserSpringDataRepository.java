@@ -10,7 +10,6 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;
 
 import java.util.List;
-import java.util.stream.LongStream;
 
 public interface UserSpringDataRepository extends
         CrudRepository<HibernateUser, Long>, JpaRepository<HibernateUser, Long>,
@@ -18,6 +17,9 @@ public interface UserSpringDataRepository extends
     List<HibernateUser> findByIdAndGender(Long id, Gender gender);
 
     List<HibernateUser> findByCredentialsLogin(String login);
+
+        @Query(value = "select * from training_records_schema.users where gender = :gender", nativeQuery = true)
+        List<HibernateUser> findUserByGender(String gender);
 
 //    @Query(value = "select u from HibernateUser u")
 //    List<HibernateUser> findByHQLQuery();

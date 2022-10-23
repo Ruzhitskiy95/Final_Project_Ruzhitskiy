@@ -5,6 +5,9 @@ import by.academy.domain.Gender;
 import by.academy.domain.hibernate.Credentials;
 import by.academy.domain.hibernate.HibernateUser;
 import by.academy.repository.springdata.UserSpringDataRepository;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.http.HttpStatus;
@@ -24,19 +27,34 @@ import java.util.Collections;
 public class UserController {
     private final UserSpringDataRepository userSpringDataRepository;
 
-    @GetMapping
-    public ResponseEntity<Object> testEndpoint() {
+    @Tag(name = "Endpoint for user", description = "All methods for user")
+    @Operation(summary = "Select all users", description = "Select all users")
+    @GetMapping("/findAll")
+    public ResponseEntity<Object> userFindAllEndpoint() {
 
         return new ResponseEntity<>(Collections.singletonMap("result",
                 userSpringDataRepository.findAll()), HttpStatus.OK);
     }
 
-    @GetMapping("/test")
-    public ResponseEntity<Object> testEndpointGender(@RequestParam("id") Long userId,
-                                                     @RequestParam ("gender") String gender) {
+    @Tag(name = "Endpoint for user", description = "Method findById for user")
+    @Operation(summary = "Select user by id", description = "Select user by id")
+    @GetMapping("/findById")
+    public ResponseEntity<Object> userFindByIdEndpoint(
+            @RequestParam("id") @Parameter(
+                    description = "User id") Long userId)
+    {
 
         return new ResponseEntity<>(Collections.singletonMap("result",
-                userSpringDataRepository.findByIdAndGender(userId,Gender.valueOf(gender))), HttpStatus.OK);
+                userSpringDataRepository.findById(userId)), HttpStatus.OK);
+    }
+    @Tag(name = "Endpoint for user", description = "Method FindAllUserByGender for user")
+    @Operation(summary = "Select user by gender", description = "Select user by gender")
+    @GetMapping("/findByGender")
+    public ResponseEntity<Object> userFindAllUserByGender(  @RequestParam ("gender") @Parameter(
+            description = "User gender") String gender) {
+
+        return new ResponseEntity<>(Collections.singletonMap("result",
+                userSpringDataRepository.findUserByGender(gender)), HttpStatus.OK);
     }
     @PostMapping
     @Transactional
