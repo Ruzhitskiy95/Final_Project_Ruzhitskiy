@@ -23,15 +23,15 @@ public class SwaggerConfig {
         return new Info()
                 .title("API")
                 .description("API")
-                .version("2.0")
-                .license(apiLicence());
+                .version("2.0");
+ //               .license(apiLicence());
     }
 
-    private License apiLicence() {
-        return new License()
-                .name("MIT Licence")
-                .url("opensource.org/licenses/mit-license.php");
-    }
+//    private License apiLicence() {
+//        return new License()
+//                .name("MIT Licence")
+//                .url("opensource.org/licenses/mit-license.php");
+//    }
 //----------SWAGGER2--------------------
 //    @Bean
 //    public Docket api() {

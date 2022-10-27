@@ -1,23 +1,19 @@
-package by.academy.domain;
+package by.academy.domain.hibernate;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
 import java.sql.Timestamp;
 
-@Getter
-@Setter
-@EqualsAndHashCode
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-@Data
 
+public class TrainingResultDTO {
 
-public class TrainingSessionsUsersResult {
 
     private String userName;
     private String surName;
@@ -26,12 +22,10 @@ public class TrainingSessionsUsersResult {
     private Long sets;
     private Long reps;
     private Long weight;
-//    private Long totalWeight;
+    private Long totalWeight;
 
     @Override
     public String toString() {
         return ToStringBuilder.reflectionToString(this, ToStringStyle.JSON_STYLE);
     }
-
 }
-

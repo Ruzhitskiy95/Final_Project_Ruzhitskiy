@@ -111,7 +111,8 @@ public class JdbcTemplateTrainingJournalRepository implements TrainingJournalInt
         return jdbcTemplate.query("select user_name, sur_name, training_data, exercise_name, sets, reps, weight  " +
                 "from training_records_schema.users inner join training_records_schema.training_journal on " +
                 "users.id = training_journal.user_id " +
-                "inner join training_records_schema.exercise_list el on el.id = training_journal.exercise_id", trainingSesionsResultMapper);
+                "inner join training_records_schema.exercise_list el on el.id = training_journal.exercise_id",
+                trainingSesionsResultMapper);
     }
 
     @Override
